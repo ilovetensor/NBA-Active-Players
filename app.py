@@ -17,7 +17,7 @@ def get_player_details(player_name):
 
         # Display player image
         st.subheader("Player Image:")
-        st.image(player_row['Filepath'], caption=player_row['name'], width=250)
+        st.image(player_row['Filename'], caption=player_row['name'], width=250)
 
 
         st.subheader("Player Details:")
